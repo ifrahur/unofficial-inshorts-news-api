@@ -9,7 +9,7 @@ CORS(app)
 
 @app.route('/')
 def home():
-    return 'News API is UP!<br><br>A part of <a href="https://ifrahur.me/">Ifrahur</a>'
+    return '<br><br>Made by <a href="https://ifrahur.me/">Ifrahur</a> <br><br>Catigories: <a href="/news?category=all">all</a> , <a href="/news?category=national">Indian News only</a> , <a href="/news?category=business">business</a> , <a href="/news?category=sports">sports</a> , <a href="/news?category=world">world</a> , <a href="/news?category=politics">politics</a> , <a href="/news?category=technology">technology</a> , <a href="/news?category=startup">startup</a> , <a href="/news?category=entertainment">entertainment</a> , <a href="/news?category=science">science</a> , <a href="/news?category=automobile">automobile</a> , <a href="/news?category=miscellaneous">miscellaneous</a> ,   '
 
 
 @app.route('/news')
